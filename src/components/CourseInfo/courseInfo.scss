@@ -1,0 +1,35 @@
+.back-to-course {
+  border: 0;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+.wrapper {
+  margin: 1rem;
+}
+.title {
+  align-self: center;
+}
+.course-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .description {
+    flex: 2;
+  }
+  .right-content {
+    flex: 1;
+    margin-left: 3rem;
+    .list-item {
+      margin-bottom: 1rem;
+      .list-item-name {
+        margin-right: 0.5rem;
+      }
+     .list-item-name {
+       font-weight: bold;
+     }
+    }
+  }
+
+}

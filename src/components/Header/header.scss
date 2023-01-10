@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border: 3px solid aqua;
+  margin: 2rem 0;
+
+  .header-logo-wrapper {
+    padding: 1rem 2rem;
+    flex: 3;
+    .logo {
+      height: 5rem;
+    }
+  }
+
+  .header-content-wrapper {
+    display: flex;
+    padding-right: 1.75rem;
+    min-width: 10rem;
+    .nickname {
+      padding-right: 3rem;
+      font-size: 30px;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    };
+    .logout-btn {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.course-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  .left-content {
+    width: 60%;
+    padding: 1rem 0;
+  }
+  .right-content {
+    width: 30%;
+    padding: 1rem 0;
+
+    .course-card__description-list {
+      .course-card__authors-wrapper {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .course-card__button-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    .bold-span {
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+  }
+}
