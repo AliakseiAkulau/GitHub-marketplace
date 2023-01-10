@@ -1,0 +1,60 @@
+.create-course-wrapper {
+  padding: 1rem;
+
+  .first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
+  .second-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .third-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .container {
+      min-width: calc(100vw - 54vw);
+      padding: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .add-author-container {
+      .author-name__label {
+          width: 100%;
+      }
+      .create-author-btn {
+        margin-top: 1rem;
+      }
+    }
+    .select-author-container {
+      .authors-list {
+        width: 80%;
+        min-height: 13.5rem;
+      }
+      .authors-list-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0.5rem;
+      }
+    }
+    .add-duration-container {
+      .duration__label {
+        width: 100%;
+      }
+      .display-duration {
+        font-size: 2rem;
+        align-self: flex-start;
+        padding-top: 2rem;
+      }
+    }
+    .empty-list {
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
